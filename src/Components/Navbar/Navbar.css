@@ -1,0 +1,63 @@
+* {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.logo {
+    height: 50%;
+    width: 50%;
+}
+
+.UserIcon :hover {
+    transform: scale(1.5);
+}
+
+.UserIcon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50px;
+    height: 50px;
+}
+
+.Cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50px;
+    height: 50px;
+}
+
+.Cart:hover{
+    transform: scale(1.5);
+}
+.Active {
+    color: white !important;
+    text-decoration: none;
+}
+
+.Inactive {
+    color: grey !important;
+    text-decoration: none;
+}
+
+.Inactive :hover {
+    color: white !important;
+}
+
+.NavMenu {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-right: 4rem;
+}
+
+.NavMenuContainer {
+    justify-content: space-between;
+    width: 75%;
+}
+
+.NavOp {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
